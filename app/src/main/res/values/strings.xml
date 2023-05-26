@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HOUD_FATIMAEZZAHRA_exam_IIBDCC_23</string>
+
+    <string name="sumbit">Sumbit</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="password">Password</string>
+    <string name="back">Back</string>
+    <string name="listpage" translatable="false">List Page</string>
+    <string name="recycle_list_page" translatable="false">Recycle List Page</string>
+    <string name="list_of_pays" translatable="false">List des pays</string>
+    <string name="add">add</string>
+    <string name="firstname">First name</string>
+    <string name="phone">Phone</string>
+    <string name="nouveau_pays">Ajouter un pays</string>
+    <string name="add_pays">Add Pays</string>
+    <string name="nbr_habitant">Nombre d habitants</string>
+    <string name="capitale">Capitale Pays</string>
+    <string name="nom_pay">Nom pays</string>
+    <string name="add_add_pays">Add Pays</string>
+    <string name="details_pays">Details Pays</string>
+    <string name="delete_pays">Delete Pays</string>
+    <string name="update_pays">Update Pays</string>
+</resources>

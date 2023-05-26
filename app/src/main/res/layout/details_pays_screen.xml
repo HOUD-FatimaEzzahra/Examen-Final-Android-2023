@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsPaysActivity"
+    android:background="@color/white"
+    android:id="@+id/DetailsContactActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/details_pays"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:background="@color/dark_blue"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+
+        <EditText
+            android:id="@+id/details_nom_pays"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:hint="@string/nom_pay"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/rounded_edittext"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            />
+
+
+        <EditText
+            android:id="@+id/details_capitale_pays"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:hint="@string/capitale"
+
+            android:background="@drawable/rounded_edittext"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/details_nbr_habitants_pays"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:hint="@string/nbr_habitant"
+            android:background="@drawable/rounded_edittext"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/deleteContact"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:text="@string/delete_pays"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                android:background="@drawable/black_btn"
+                android:backgroundTint="@color/red"
+                />
+
+            <Button
+                android:id="@+id/updateContact"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/green"
+                android:text="@string/update_pays"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                android:background="@drawable/black_btn"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

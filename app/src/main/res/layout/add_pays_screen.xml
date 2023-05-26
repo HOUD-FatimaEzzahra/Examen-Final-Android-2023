@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPaysActivity"
+    android:background="@color/white"
+    android:id="@+id/AddPaysLayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_add_pays"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@color/dark_blue"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/add_nom_pays"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:hint="@string/nom_pay"
+            android:inputType="text"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext"
+            />
+
+        <EditText
+            android:id="@+id/add_capitale_pays"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:hint="@string/capitale"
+            android:inputType="text"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext"
+            />
+
+        <EditText
+            android:id="@+id/add_nbr_habitat_pays"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:hint="@string/nbr_habitant"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/addPays"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:text="@string/add_pays"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:background="@drawable/black_btn"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

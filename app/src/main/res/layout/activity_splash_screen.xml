@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".SplashScreen">
+
+    <View
+        android:id="@+id/Topview1"
+        android:layout_width="18dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        />
+
+    <View
+        android:id="@+id/Topview2"
+        android:layout_toStartOf="@+id/Topview1"
+        android:layout_width="18dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="55dp"
+        android:background="@color/green"
+        android:visibility="invisible"
+        />
+
+    <View
+        android:id="@+id/Topview3"
+        android:layout_toStartOf="@+id/Topview2"
+        android:layout_width="18dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="89dp"
+        android:background="@color/pink"
+        android:visibility="invisible"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="263dp"
+        android:layout_marginBottom="263dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:src="@drawable/logo"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/ButtomView1"
+        android:layout_width="18dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="360dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@color/white" />
+
+    <View
+        android:id="@+id/ButtomView2"
+        android:layout_width="18dp"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="-59dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toStartOf="@+id/ButtomView1"
+        android:background="@color/green"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/ButtomView3"
+        android:layout_width="18dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toStartOf="@+id/ButtomView2"
+        android:background="@color/pink"
+        android:visibility="invisible" />
+
+</RelativeLayout>
